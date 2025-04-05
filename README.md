@@ -10,7 +10,8 @@
 2. Перейдите в папку проекта
    
 3. Запустите проект с помощью Docker:
-   docker build -t vacation-calculator .
+   docker-compose up --build
+   
 4. После запуска сервис будет доступен по адресу: http://localhost:8080
 
 ## Примеры запросов
